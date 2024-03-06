@@ -1,0 +1,15 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    background-color: bisque;
+}
+section div {
+    padding: 200;
+    text-align: center;
+    margin-top: 200px;
+}
+section img {
+    max-width: 250px;
+    height: 300px;
+    border: 3px solid red;
+}

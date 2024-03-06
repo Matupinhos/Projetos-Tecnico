@@ -1,0 +1,15 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+}
+section div {
+    margin-top: 150px;
+    text-align: center;
+    color: red;
+}
+#cadastro {
+    margin-left: 100px;
+}
+section button {
+    background-color: orange;    
+}
