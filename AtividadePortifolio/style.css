@@ -1,0 +1,61 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+#Cabecalho {
+    background-color: black;
+    color: white;
+}
+header {
+	display: flex
+}
+#Apresentação {
+	position: relative;
+	left: 71%
+}
+#Inicio {
+	position: relative;
+	left: 73%
+}
+#Matheus {
+    text-align: center;
+    font-size: xx-large;
+    padding: 50px;
+}
+hr {
+    border: none;
+    position: relative;
+    background: rgb(240, 106, 106);
+    height: 12px;
+    margin-bottom: 50px;
+    top: 10px;
+}
+#Principal {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 300px ;
+    padding-left: 300px ;
+    padding-right: 300px ;
+}
+#Direita {
+    padding: 20px;
+}
+#AUTOBIOGRAFIA {
+    font-size: x-large;
+}
+#imagem {
+    padding: 50px 0;
+    margin-left: 50px 0;
+}
+section img {
+    width: 100%;
+    height: auto;
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 100000px;
+}
