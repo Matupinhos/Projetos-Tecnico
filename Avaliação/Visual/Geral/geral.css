@@ -2,7 +2,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: bisque;
 }
-section div {
+.login{
     margin-top: 150px;
     text-align: center;
     color: red;
@@ -11,5 +11,9 @@ section div {
     margin-left: 100px;
 }
 section button {
-    background-color: orange;    
+    background-color: orange;
+}
+
+section img {
+    mix-blend-mode: multiply;  
 }
