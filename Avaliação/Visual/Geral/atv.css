@@ -1,18 +1,13 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: bisque;
-}
 section {
     display: flex;
     color: white;
 }
 header {
     text-align: center;
-    background-color: lightblue;
+
 }
 .separado {
     justify-content: space-around;
-    background-color: bisque;
 }
 #sec1 {
     background-color: black;
@@ -50,5 +45,12 @@ header {
 
 section img {
     max-width: 300px;
-    mix-blend-mode: multiply;  
+    height: 300px; width: auto;
+}
+hr {
+    border-color: red;
+    border-radius: 3px;
+}
+.junto {
+    margin-top: 30px;
 }
