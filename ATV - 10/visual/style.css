@@ -1,0 +1,26 @@
+form {
+    width: 20%;
+    height: 150px;
+    border-radius: 10px;
+    border-width: 5px ;
+    border-color: black;
+    border-style: groove;
+    text-align: center;
+    margin-left: 5px;
+}
+table {
+    th {
+        padding: 5px;
+    }
+}
+.roxo {
+    background-color: purple;
+    color: white;
+}
+.exemplos {
+    display: flex;
+}
+header {
+    text-align: center;
+    background-color: antiquewhite;
+}

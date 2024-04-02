@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomularios</title>
+    <link rel="stylesheet" href="../visual/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formularios no HTML</h1>
+        <p>Aluno: Matheus Victor Machado Bernardes</p>
+    </header>
+    <h1>A utilização e aplicação dos formulários em HTML:</h1>
+    <p>O uso de formulário HTML (ou HTML form) é muito frequente na web, é um dos principais pontos de interação entre
+        usuários e uma aplicação web. Geralmente, eles funcionam enviando os dados para um servidor, porém também podem
+        ser utilizados para alguma função na própria página.</p>
+    <p>Exemplos:</p>
+    <section class="exemplos">
+        <img id="imgoforms" src="../visual/imgforms.png" alt="">
+        <form action="">
+            <p>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="passoword">Senha:</label>
+                <input type="password" id="passoword" name="passoword">
+            </p>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <h1>Como funciona o container form?</h1>
+    <p>O container é basicamente a section do formulario. O form pode ser direcionado para outra url.</p>
+    <h1>Quais os tipos de input?</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th class="roxo">Tipo</th>
+                <th class="roxo">Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Button</th>
+                <th>Cria um botão genérico, como <button>Este</button> para ser utilizado por programação javascript
+                </th>
+            </tr>
+            <tr>
+                <th>Checkbox</th>
+                <th>Cria uma entrada binária como <input type="checkbox"> esta</th>
+            </tr>
+            <tr>
+                <th>Color</th>
+                <th>Cria uma entrada para registros de cor como <input type="color">esta</th>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <th>Cria uma entrada de data de calendário, como esta <input type="date"></th>
+            </tr>
+            <tr>
+                <th>File</th>
+                <th>Cria uma entrada para envio de arquivos, como esta: <input type="file">
+                </th>
+            </tr>
+            <tr>
+                <th>Hidden</th>
+                <th>O tipo <input type="hidden"> hidden não aparece na tela, e serve para guardar variáveis para serem
+                    enviadas à outras páginas, ou arquivar dados temporários</th>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <th>Cria uma entrada de texto onde os valores inseridos aparecem na tela protegidos por caracteres *,
+                    como esta: <input type="password"></th>
+            </tr>
+            <tr>
+                <th>Radio</th>
+                <th>Cria uma entrada de seleção com opções feitas por seletores como <input type="radio"> este</th>
+            </tr>
+            <tr>
+                <th>Range</th>
+                <th>Cria uma entrada com um slider, como <input type="range">este</th>
+            </tr>
+            <tr>
+                <th>Reset</th>
+                <th>Cria um botão de reset como <input type="reset" value="este">, que apaga dos os dados do formulário
+                </th>
+            </tr>
+            <tr>
+                <th>Text</th>
+                <th>Cria um campo de texto como <input type="text" value="este"></th>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Como funciona o post?</h1>
+    <p>O método POST cria um par nome/valor que são passados no corpo da mensagem de pedido HTTP. O método HTML padrão é
+        o GET, se você quiser usar POST você tem que especificar isso no atributo method.</p>
+</body>
+</html>
