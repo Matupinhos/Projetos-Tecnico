@@ -42,3 +42,10 @@ body {
     width: 350px;
     font-size: 20px;
 }
+#nome {
+    position: relative;
+    margin-left: 660px;
+}
+.sinal {
+    font-size: 20px;
+}
