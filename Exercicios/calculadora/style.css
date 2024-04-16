@@ -1,33 +1,44 @@
 body {
     background-color: rgb(241, 232, 232);
     font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgb(96, 192, 187);
 }
 .container {
     text-align: center;
-    background-color: white;
     margin-top: 300px;
     width: 20%;
-    margin-left: 770px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1px;
     border-radius: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #263f64, #006792, #0093b5, #00c0c6, #12ebc5);
     input {
         width: 342px;
     }
 }
 #numero1, #numero2 {
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 5px;
     display: grid;
     input {
         margin-left: 15px;
         font-size: 20px;
     }
+
 }
 #numero2 {
     margin-right: 5px;
 }
-#calcular {
+#calcula {
     margin-top: 5px;
     width: 350px;
     height: 40px;
     background-color: orange
+}
+#escolha {
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
 }
